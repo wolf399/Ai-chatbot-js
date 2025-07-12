@@ -6,7 +6,7 @@ const clearChatButton = document.getElementById("clearChatButton");
 
 // === CONSTANTS ===
 const BOT_GREETING = "Hello! How can I help you today?";
-const API_KEY = "AIzaSyAMqfXohATI-0oedW_VUyerSl8_Y0c3lOs";
+const API_KEY = "AIzaSyDhpCyVn1FjRRWC0i7MeMihP04AKHgWVcQ";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let chatHistory = [
